@@ -4,7 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "https://test-frontend-liard.vercel.app/",
+    "http://localhost:3000",
+    "https://test-frontend-liard.vercel.app"
 ]
 
 app.add_middleware(
